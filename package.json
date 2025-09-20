@@ -1,14 +1,14 @@
 {
-  "name": "openai-quickstart-node",
+  "name": "openai-joke-bot",
   "version": "1.0.0",
-  "description": "node quickstart for OpenAI APIs",
+  "description": "A simple AI joke generator using OpenAI and Express",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
-  "license": "MIT",
   "dependencies": {
-    "openai": "^4.79.2"
-  },
-  "type": "module"
+    "express": "^4.18.2",
+    "openai": "^4.0.0"
+  }
 }
